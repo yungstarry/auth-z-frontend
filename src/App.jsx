@@ -7,7 +7,7 @@ import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Forgot from "./pages/auth/Forgot";
 import Reset from "./pages/auth/Reset";
-import Verify from "./pages/auth/verify";
+import Verify from "./pages/auth/Verify";
 import Profile from "./pages/profile/Profile";
 import ChangePassword from "./pages/changePassword/ChangePassword";
 import UserList from "./pages/userList/UserList";
