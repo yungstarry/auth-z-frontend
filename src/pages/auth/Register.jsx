@@ -5,7 +5,7 @@ import { TiUserAddOutline } from "react-icons/ti";
 import { Link, useNavigate } from "react-router-dom";
 import InputPassword from "../../components/passwordInput/InputPassword";
 
-import PasswordIndicator from "../../components/passwordIndicator/passwordIndicator";
+import PasswordIndicator from "../../components/passwordIndicator/PasswordIndicator";
 import { toast } from "react-toastify";
 import { validateEmail } from "../../redux/features/auth/authService";
 import { useDispatch, useSelector } from "react-redux";
