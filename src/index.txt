@@ -1,0 +1,23 @@
+// Password Strength
+// Check Lower and Uppercase
+match(/([a-z].*[A-Z])|([A-Z].*[a-z])/)
+
+// Check For Numbers
+match(/([0-9])/)
+
+// Check For Special char
+match(/([!,%,&,@,#,$,^,*,?,_,~])/)
+
+// Check email
+match: [
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        "Please enter a valid emaial",
+      ],
+
+
+// Validate email
+export const validateEmail = (email) => {
+  return email.match(
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  );
+};
